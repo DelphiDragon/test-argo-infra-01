@@ -6,7 +6,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: froont-app
+    app: front-app
   ports:
   - port: 10000
     targetPort: 80
